@@ -1,0 +1,28 @@
+.header
+    height: 72px
+    position: fixed
+    width: 100%
+    background-color: #fff
+    z-index: 2
+    &__wrap
+        display: flex
+        justify-content: space-between
+        padding-top: 12px
+        align-items: center
+        @media (max-width: 1190px)
+            padding: 12px 20px
+            @media (max-width: 767px)
+                padding: 12px 24px
+    &__hamburder
+        width: 48px
+        padding: 12px
+        border-radius: 25px
+        background-color: #FFF
+        box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08)
+        cursor: pointer
+        &__line
+            width: 24px
+            height: 2px
+            background-color: #383838
+            &_margin
+                margin: 9px 0

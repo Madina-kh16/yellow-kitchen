@@ -1,0 +1,60 @@
+.yellow-kitchen__menu
+    background: url(../images/bg.jpg), lightgray 50% / cover no-repeat
+    display: flex
+    padding: 79px 0
+    &__wrap
+        display: flex
+        @media (max-width: 767px)
+            gap: 47px 0
+            flex-wrap: wrap
+            max-width: 400px
+            justify-content: center
+    &__item
+        height: 160px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-direction: column
+        @media (max-width: 440px)
+            height: 135px
+        &__number
+            position: relative
+            width: 183px
+            display: flex
+            justify-content: center
+            @media (max-width: 440px)
+                width: 138px
+        &__text
+            color: #3F4255
+            font-family: Poppins
+            font-size: 24px
+            font-weight: 600
+            @media (max-width: 440px)
+                font-size: 18px
+    &__ellipse1
+        border: 1px solid #B79C10
+        border-radius: 50%
+        width: 127px
+        top: -22px
+        position: absolute
+        z-index: 1
+        height: 127px
+        @media (max-width: 440px)
+            width: 100px
+            height: 100px
+    &__ellipse2
+        width: 126px
+        height: 126px
+        background-color: #FFE145
+        border-radius: 50%
+        position: absolute
+        display: flex
+        align-items: center
+        justify-content: center
+        color: #3f4255
+        font-size: 58px
+        font-weight: 700
+        @media (max-width: 440px)
+            width: 100px
+            height: 100px
+            font-size: 40px

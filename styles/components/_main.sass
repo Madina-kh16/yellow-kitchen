@@ -1,0 +1,63 @@
+*
+    box-sizing: border-box
+
+body
+    font-family: 'Raleway', sans-serif
+
+body, h1, h2, h3, h4, h5, h6, ul, li, p
+    margin: 0
+    padding: 0
+
+h1, h2, h3, h4, h5, h6
+    font-size: inherit
+    font-weight: inherit
+
+img
+    width: inherit
+    height: inherit
+    margin: 0
+    border-radius: inherit
+a
+    color: inherit
+    text-decoration: none
+
+.wrapper
+    max-width: 1251px
+    margin: 0 auto
+
+.common__line
+    height: 1px
+    background: #D4D7E5
+
+.title-1
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 48px
+.title__text
+    color: #3F4255
+    max-width: 1136px
+    font-family: Poppins
+    font-size: 36px
+    letter-spacing: 2.88px
+    @media (max-width: 767px)
+        font-size: 22px
+        @media (max-width: 365px)
+            font-size: 20px
+.title__btn
+    display: flex
+    height: 48px
+    width: 118px
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    background-color: #F2F4FA
+    color: #9093A6
+    font-family: Martel Sans
+    font-weight: 700
+    &:hover
+        border-radius: 4px
+        background: #D4D7E5
+    @media (max-width: 365px)
+        height: 40px
+        width: 100px
